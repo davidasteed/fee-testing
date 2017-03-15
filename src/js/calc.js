@@ -19,6 +19,7 @@
             total += num;
         });
 
+        return total;
     };
 
     /**
