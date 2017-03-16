@@ -32,3 +32,10 @@ Critical Path:
               if (!numbers) {
                   return total;
               }
+
+      initial thoughts for factorial() test conditions:
+        In descending order:
+        1.  did they provide a topnumber at all?
+        2.  only accept a topnumber value that is typeof(number)
+        3.  needs to be a positive number,
+        4.  needs not to be zero
